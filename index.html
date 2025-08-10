@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a class="header__logo" href="./index.html">QUENX.</a>
+    <nav class="header__nav">
+      <ul class="header__menu header__menu--desktop">
+        <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Shop All</a></li>
+        <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Best Sellers</a>
+        </li>
+        <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Active QX</a></li>
+        <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Artisanal</a></li>
+        <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Kids</a></li>
+        <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">About Us</a></li>
+      </ul>
+      <div class="header__user-stuff">
+        <div class="header__input-container">
+          <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+          <input class="header__input" type="text" placeholder="Search">
+        </div>
+        <span class="header__user-account header__user-account--desktop">Log In <i
+            class="fa-solid fa-circle-user header__user-icon header__user-icon--desktop"></i></span>
+        <i class="fa-regular fa-heart header__heart"></i>
+        <img class="header__cart" src="./asset-images/cart.png" alt="cart">
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="hero__text-container">
+        <h1 class="hero__main-text">WALKING WITH PURPOSE.</h1>
+        <p class="hero__secondary-text">Premium Vegan Sneakers</p>
+      </div>
+
+      <div class="hero__card">
+        <div class="hero__upper-side">
+          <img class="hero__product-image" src="./home-page-images/hero-product.avif" alt="Bio Runner sneaker">
+          <span class="hero__tag">Sale</span>
+        </div>
+        <div class="hero__lower-side">
+          <span class="hero__product-name">Bio Runner</span>
+          <div class="hero__price hero__price--new"><span class="hero__price hero__price--old">$119.00</span> $99.00
+          </div>
+          <button class="hero__button hero__button--blue">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+    <section class="trending">
+      <div class="trending__text-container">
+        <h1 class="trending__heading">OUR BEST SELLERS</h1>
+        <a class="trending__view-all" href="">VIEW ALL <i class="fa-solid fa-arrow-right trending__arrow-icon"></i></a>
+      </div>
+
+      <div class="trending__card-container">
+        <div class="card">
+          <div class="card__upper-side">
+            <img class="card__product-image" src="./home-page-images/active-jr.avif" alt="Active JR">
+            <span class="card__status">Best Seller</span>
+          </div>
+          <div class="card__lower-side">
+            <span class="card__product-name">Active JR</span>
+            <div class="card__price card__price--new"><span class="card__price card__price--old">$80.00</span> $64.00
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__upper-side">
+            <img class="card__product-image" src="./home-page-images/bio-original.avif" alt="Bio Original">
+            <span class="card__status">Best Seller</span>
+          </div>
+          <div class="card__lower-side">
+            <span class="card__product-name">Bio Original</span>
+            <span class="card__price card__price--old">$119.00</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__upper-side">
+            <img class="card__product-image" src="./home-page-images/bio-perform.avif" alt="Bio Perform">
+            <span class="card__status">Best Seller</span>
+          </div>
+          <div class="card__lower-side">
+            <span class="card__product-name">Bio Perform</span>
+            <div class="card__price card__price--new"><span class="card__price card__price--old">$119.00</span> $99.00
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__upper-side">
+            <img class="card__product-image" src="./home-page-images/limited-dl.avif" alt="Limited DL">
+            <span class="card__status">Best Seller</span>
+          </div>
+          <div class="card__lower-side">
+            <span class="card__product-name">Limited DL</span>
+            <span class="card__price card__price--old">$129.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discount-banner">
+      <div class="discount-banner__heading">
+        <h1 class="discount-banner__main-text">KIDS COLLECTION 20% OFF SALE</h1>
+        <p class="discount-banner__secondary-text">Exclusive, one-time offer</p>
+        <button class="discount-banner__button discount-banner__button--blue">SHOP NOW</button>
+      </div>
+      <img class="discount-banner__image" src="./home-page-images/discount-banner-img.avif" alt="Kids Shoes">
+    </section>
+    <section class="categories">
+      <div class="categories__text-container">
+        <h1 class="categories__heading">SHOP BY COLLECTION</h1>
+        <a class="categories__view-all" href="">VIEW ALL <i
+            class="fa-solid fa-arrow-right categories__arrow-icon"></i></a>
+      </div>
+      <div class="categories__grid-container">
+        <div class="categories__card">
+          <img class="categories__image" src="./home-page-images/bio-original.avif" alt="ACTIVE QX">
+          <a class="categories__view-all categories__view-all--nested" href="">ACTIVE QX <i
+              class="fa-solid fa-arrow-right categories__arrow-icon"></i></a>
+        </div>
+        <div class="categories__card">
+          <img class="categories__image" src="./home-page-images/origin-jr.avif" alt="KIDS">
+          <a class="categories__view-all categories__view-all--nested" href="">KIDS <i
+              class="fa-solid fa-arrow-right categories__arrow-icon"></i></a>
+        </div>
+        <div class="categories__card">
+          <img class="categories__image" src="./home-page-images/core-dl.avif" alt="ARTISANAL">
+          <a class="categories__view-all categories__view-all--nested" href="">ARTISANAL <i
+              class="fa-solid fa-arrow-right categories__arrow-icon"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="about-business">
+      <div class="about-business__text-container">
+        <h1 class="about-business__heading">STEP INTO SUSTAINABILITY</h1>
+        <p class="about-business__content">This is the space to introduce visitors to the business or brand. Briefly
+          explain who's behind it, what it does and what makes it unique. Share its core values and what this site has
+          to offer.</p>
+      </div>
+    </section>
+    <section class="feedback">
+      <h1 class="feedback__heading">FIND OUT WHAT PEOPLE ARE SAYIG ABOUT QUENX</h1>
+      <div class="feedback__container">
+        <div class="feedback__card">
+          <h1 class="feedback__phrase">"Eco-Friendly and Stylish"</h1>
+          <p class="feedback__comment">Use this space to share a testimonial quote about the business, its products or
+            its services. Include a quote from an actual customer to build trust and attract site visitors.
+          </p>
+          <span class="feedback__user-info"><img class="feedback__user-photo" src="./home-page-images/1.avif" alt="James Mitchell"> James Mitchell</span>  
+        </div>
+        <div class="feedback__card">
+          <h1 class="feedback__phrase">"Ideal for Active Lifestyles"</h1>
+          <p class="feedback__comment">Use this space to share a testimonial quote about the business, its products or
+            its services. Include a quote from an actual customer to build trust and attract site visitors.
+          </p>
+          <span class="feedback__user-info"><img class="feedback__user-photo" src="./home-page-images/2.avif" alt="Rebecca Thompson"> Rebecca Thompson</span>  
+        </div>
+        <div class="feedback__card">
+          <h1 class="feedback__phrase">"My New Daily Essential"</h1>
+          <p class="feedback__comment">Use this space to share a testimonial quote about the business, its products or
+            its services. Include a quote from an actual customer to build trust and attract site visitors.
+          </p>
+          <span class="feedback__user-info"><img class="feedback__user-photo" src="./home-page-images/3.avif" alt="Sophia Navarro"> Sophia Navarro</span>  
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__grid-container">
+      <div class="footer__grid-child">
+        <h1 class="footer__heading">SHOP</h1>
+        <a class="footer__web-link" href="">All products</a>
+        <a class="footer__web-link" href="">Best Sellers</a>
+        <a class="footer__web-link" href="">Active QX</a>
+        <a class="footer__web-link" href="">Artisanal</a>
+        <a class="footer__web-link" href="">Kids</a>
+        <a class="footer__web-link" href="">About Us</a>
+      </div>
+      <div class="footer__grid-child">
+        <h1 class="footer__heading">POLICIES</h1>
+        <a class="footer__web-link" href="">Terms & Conditions</a>
+        <a class="footer__web-link" href="">Privacy Policy</a>
+        <a class="footer__web-link" href="">Shipping Policy</a>
+        <a class="footer__web-link" href="">Refund Policy</a>
+        <a class="footer__web-link" href="">Accessibility Statement</a>
+      </div>
+      <div class="footer__grid-child">
+        <h1 class="footer__heading">CONTACT</h1>
+        <p class="footer__address">500 Terry Francine St.</p>
+        <p class="footer__address">San Francisco, CA 94158</p>
+        <p class="footer__address">123-456-7890</p>
+        <a class="footer__web-link" href="">info@mysite.com</a>
+      </div>
+      <div class="footer__grid-child">
+        <h1 class="footer__heading">SOCIAL</h1>
+        <a class="footer__web-link" href="https://www.instagram.com/wixstudio/#" target="_blank">Instagram</a>
+        <a class="footer__web-link" href="https://www.facebook.com/WixStudio" target="_blank">Facebook</a>
+        <a class="footer__web-link" href="https://x.com/wixstudio" target="_blank">X</a>
+        <a class="footer__web-link" href="https://www.tiktok.com/@wixstudio" target="_blank">Tik Tok</a>
+      </div>
+      <form class="footer__form">
+        <h1 class="footer__heading">STAY IN THE LOOP</h1>
+        <p class="footer__address">Sign up to receive updates and special offers</p>
+        <div class="footer__input-container">
+          <label class="footer__label" for="email">Email Address *</label>
+          <input class="footer__email-input" type="email" id="email">
+        </div>
+        <div class="footer__input-container">
+          <input class="footer__check-input" id="newsletter" type="checkbox">
+          <label class="footer__label" for="newsletter">Yes, subscribe me to your newsletter. *</label>
+        </div>
+        <button class="footer__button footer__button--blue" type="submit">SIGN UP</button>
+      </form>
+    </div>
+    <div class="footer__flexbox">
+      <h1 class="footer__big-text">QUENX.</h1>
+      <p class="footer__made-by">&copy; 2035 by Quenx. Built on <a class="footer__wix-link" href="https://www.wix.com/studio" target="_blank">Wix Studio</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>
