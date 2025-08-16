@@ -32,6 +32,10 @@
   color: var(--main-text-dark-color);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body, button, input, select, textarea, a {
   font-family: "halvetica";
   color: var(--main-text-dark-color);

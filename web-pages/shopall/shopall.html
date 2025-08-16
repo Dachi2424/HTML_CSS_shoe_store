@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="./shopall.css">
+</head>
+
+<body>
+  <div class="website-wrapper-container">
+    <header class="header">
+      <a class="header__logo" href="../../index.html">QUENX.</a>
+      <nav class="header__nav">
+        <ul class="header__menu header__menu--desktop">
+          <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Shop All</a>
+          </li>
+          <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Best Sellers</a>
+          </li>
+          <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Active QX</a>
+          </li>
+          <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Artisanal</a>
+          </li>
+          <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">Kids</a></li>
+          <li class="header__menu-item header__menu-item--desktop"><a class="header__page-link" href="">About Us</a>
+          </li>
+        </ul>
+        <div class="header__user-stuff">
+          <div class="header__input-container">
+            <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+            <input class="header__input" type="text" placeholder="Search">
+          </div>
+          <span class="header__user-account header__user-account--desktop">Log In <i
+              class="fa-solid fa-circle-user header__user-icon header__user-icon--desktop"></i></span>
+          <i class="fa-regular fa-heart header__heart"></i>
+          <img class="header__cart" src="../../asset-images/cart.png" alt="cart">
+        </div>
+      </nav>
+    </header>
+    <div class="moving-ad">
+      <div class="moving-ad__inner">
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+        <span class="moving-ad__text">FREE SHIPPING ON ALL INTERNATIONAL ORDERS OVER $35 <img class="moving-ad__flake"
+            src="../../asset-images/flake.png" alt="Flake"></span>
+      </div>
+    </div>
+    <main class="main">
+      <section class="all-products">
+        <p class="all-products__directory"><a class="all-products__home-link" href="../../index.html">Home</a> <span
+            class="all-products__arrow-right">></span> All Products</p>
+        <h1 class="all-products__heading">All Products</h1>
+        <div class="container">
+          <div class="container__filter">
+            <h2 class="container__filter-category">Browse by</h2>
+            <div class="container__strip"></div>
+            <a class="container__link container__link--active" href="../shopall/shopall.html">All Products</a>
+            <a class="container__link" href="">Active QX</a>
+            <a class="container__link" href="">Artisanal</a>
+            <a class="container__link" href="">Best Sellers</a>
+            <a class="container__link" href="">Kids shoes</a>
+            <h2 class="container__filter-category container__filter-category--second">Filter by</h2>
+            <div class="container__strip"></div>
+            <div class="container__for-js container__for-js--toggler" onclick=closePricebar()>
+              <div class="container__price-range">
+                <p class="container__price-text">Price</p>
+                <p class="container__toggler">-</p>
+                <p class="container__toggler container__toggler--passive">+</p>
+              </div>
+              <input class="container__range" type="range">
+              <div class="container__range-container">
+                <p class="container__price-text">$64</p>
+                <p class="container__price-text">$129</p>
+              </div>
+              <div class="container__strip"></div>
+            </div>
+          </div>
+          <div class="container__product-grid">
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__grid-container">
+        <div class="footer__grid-child">
+          <h1 class="footer__heading">SHOP</h1>
+          <a class="footer__web-link" href="">All products</a>
+          <a class="footer__web-link" href="">Best Sellers</a>
+          <a class="footer__web-link" href="">Active QX</a>
+          <a class="footer__web-link" href="">Artisanal</a>
+          <a class="footer__web-link" href="">Kids</a>
+          <a class="footer__web-link" href="">About Us</a>
+        </div>
+        <div class="footer__grid-child">
+          <h1 class="footer__heading">POLICIES</h1>
+          <a class="footer__web-link" href="">Terms & Conditions</a>
+          <a class="footer__web-link" href="">Privacy Policy</a>
+          <a class="footer__web-link" href="">Shipping Policy</a>
+          <a class="footer__web-link" href="">Refund Policy</a>
+          <a class="footer__web-link" href="">Accessibility Statement</a>
+        </div>
+        <div class="footer__grid-child">
+          <h1 class="footer__heading">CONTACT</h1>
+          <p class="footer__address">500 Terry Francine St.</p>
+          <p class="footer__address">San Francisco, CA 94158</p>
+          <p class="footer__address">123-456-7890</p>
+          <a class="footer__web-link" href="">info@mysite.com</a>
+        </div>
+        <div class="footer__grid-child">
+          <h1 class="footer__heading">SOCIAL</h1>
+          <a class="footer__web-link" href="https://www.instagram.com/wixstudio/#" target="_blank">Instagram</a>
+          <a class="footer__web-link" href="https://www.facebook.com/WixStudio" target="_blank">Facebook</a>
+          <a class="footer__web-link" href="https://x.com/wixstudio" target="_blank">X</a>
+          <a class="footer__web-link" href="https://www.tiktok.com/@wixstudio" target="_blank">Tik Tok</a>
+        </div>
+        <form class="footer__form">
+          <h1 class="footer__heading">STAY IN THE LOOP</h1>
+          <p class="footer__address footer__address--form">Sign up to receive updates and special offers</p>
+          <div class="footer__input-container">
+            <input class="footer__email-input" type="email" id="email" placeholder="Email Address *" required>
+          </div>
+          <div class="footer__input-container">
+            <input class="footer__check-input" id="newsletter" type="checkbox" required>
+            <label class="footer__label" for="newsletter">Yes, subscribe me to your newsletter. *</label>
+          </div>
+          <button class="footer__button footer__button--blue" type="submit">SIGN UP</button>
+        </form>
+      </div>
+      <div class="footer__flexbox">
+        <h1 class="footer__big-text">QUENX.</h1>
+        <p class="footer__made-by">&copy; 2035 by Quenx. Built on <a class="footer__wix-link"
+            href="https://www.wix.com/studio" target="_blank">Wix Studio</a></p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    function closePricebar() {
+      const container = document.querySelector(".container__for-js");
+      container.classList.toggle("container__for-js--toggler");
+    }
+  </script>
+</body>
+
+</html>
