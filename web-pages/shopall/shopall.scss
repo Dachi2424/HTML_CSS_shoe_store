@@ -160,4 +160,23 @@ section{
   &__price{
     font-size: 15px;
   }
+  &__upper-side{
+    position: relative;
+  }
+  &__product-image-hover{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 20px;
+    opacity: 0;
+  }
+  &__product-image, .card__product-image-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.25s;
+  }
+  &__upper-side:hover .card__product-image-hover{
+    opacity: 1;
+  }
 }

@@ -154,4 +154,25 @@ section {
 }
 .card__price {
   font-size: 15px;
+}
+.card__upper-side {
+  position: relative;
+}
+.card__product-image-hover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+}
+.card__product-image, .card .card__product-image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.25s;
+}
+.card__upper-side:hover .card__product-image-hover {
+  opacity: 1;
 }/*# sourceMappingURL=shopall.css.map */
