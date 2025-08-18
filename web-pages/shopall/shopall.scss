@@ -1,5 +1,6 @@
 section{
   margin-inline: 20px;
+  padding-bottom: 60px;
 }
 
 .all-products{
@@ -150,9 +151,20 @@ section{
       color: rgba(40, 40, 40, 0.7);
     }
   }
+  &__load-more-btn{
+    color: white;
+    font-weight: 600;
+    background-color: #1570C3;
+    font-size: 12px;
+    border: 1px solid #1570C3;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+  }
 }
 
 .card{
+  position: relative;
   &__product-name{
     font-size: 14px;
     font-weight: 200;
@@ -178,5 +190,10 @@ section{
   }
   &__upper-side:hover .card__product-image-hover{
     opacity: 1;
+  }
+  &__lower-side{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
   }
 }

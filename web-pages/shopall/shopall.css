@@ -1,5 +1,6 @@
 section {
   margin-inline: 20px;
+  padding-bottom: 60px;
 }
 
 .all-products__directory {
@@ -147,7 +148,20 @@ section {
 .container__current-select:hover {
   color: rgba(40, 40, 40, 0.7);
 }
+.container__load-more-btn {
+  color: white;
+  font-weight: 600;
+  background-color: #1570C3;
+  font-size: 12px;
+  border: 1px solid #1570C3;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+}
 
+.card {
+  position: relative;
+}
 .card__product-name {
   font-size: 14px;
   font-weight: 200;
@@ -175,4 +189,9 @@ section {
 }
 .card__upper-side:hover .card__product-image-hover {
   opacity: 1;
+}
+.card__lower-side {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
 }/*# sourceMappingURL=shopall.css.map */
