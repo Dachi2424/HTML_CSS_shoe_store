@@ -89,6 +89,31 @@ section{
       display: none;
     }
   }
+  &__range{
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--main-text-dark-color);
+    height: 2px;
+    margin-bottom: 15px;
+    &::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      width: 12px;
+      height: 12px;
+      background-color: var(--main-text-dark-color);
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+    }
+    &::-moz-range-thumb{
+      width: 12px;
+      height: 12px;
+      background: var(--main-text-dark-color);
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+    }
+  }
   &__range-container{
     width: 100%;
     display: flex;

@@ -88,6 +88,32 @@ section {
 .container__toggler--passive {
   display: none;
 }
+.container__range {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: var(--main-text-dark-color);
+  height: 2px;
+  margin-bottom: 15px;
+}
+.container__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: var(--main-text-dark-color);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.container__range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: var(--main-text-dark-color);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
 .container__range-container {
   width: 100%;
   display: flex;
