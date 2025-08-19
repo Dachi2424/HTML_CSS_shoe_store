@@ -46,8 +46,13 @@
             <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
             <input class="header__input" type="text" placeholder="Search">
           </div>
-          <span class="header__user-account header__user-account--desktop">Log In <i
-              class="fa-solid fa-circle-user header__user-icon header__user-icon--desktop"></i></span>
+          <span class="header__user-account header__user-account--desktop" onclick=openLogin()>Log In <i class="fa-solid fa-circle-user header__user-icon header__user-icon--desktop"></i></span>
+          <div class="header__login-section">
+            <i class="fa-solid fa-xmark header__login-xmark" onclick=closeLogin()></i>
+            <h1>Demo Mode</h1>
+            <p>To make this template yours, start editing it.</p>
+            <button>OK</button>
+          </div>
           <i class="fa-regular fa-heart header__heart"></i>
           <img class="header__cart" src="./asset-images/cart.png" onclick=openCart() alt="cart">
           <div class="header__cart-section">
@@ -268,27 +273,7 @@
     </footer>
   </div>
 
-  <script>
-
-    //cart open/close logic
-    function openCart(){
-      const cartBar = document.querySelector(".header__cart-section");
-      const darkBG = document.querySelector(".header__cart-dark-background");
-
-      cartBar.style.display = "unset";
-      darkBG.style.display = "unset";
-    }
-    function closeCart(){
-      const cartBar = document.querySelector(".header__cart-section");
-      const darkBG = document.querySelector(".header__cart-dark-background");
-
-      cartBar.style.display = "none";
-      darkBG.style.display = "none";
-    }
-
-    //login open/close login
-    
-  </script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
