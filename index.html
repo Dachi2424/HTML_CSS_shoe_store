@@ -49,10 +49,18 @@
           <span class="header__user-account header__user-account--desktop">Log In <i
               class="fa-solid fa-circle-user header__user-icon header__user-icon--desktop"></i></span>
           <i class="fa-regular fa-heart header__heart"></i>
-          <img class="header__cart" src="./asset-images/cart.png" alt="cart">
+          <img class="header__cart" src="./asset-images/cart.png" onclick=openCart() alt="cart">
+          <div class="header__cart-section">
+            <span class="header__cart-text">Cart <span class="header__cart-items-quantity">(0 items)</span></span>
+            <i class="fa-solid fa-xmark header__cart-xmark" onclick=closeCart()></i>
+            <div class="header__cart-strip"></div>
+            <p class="header__empty-cart-text">Your cart is empty.</p>
+          </div>
+          <div class="header__cart-dark-background" onclick=closeCart()></div>
         </div>
       </nav>
     </header>
+
     <main class="main">
       <section class="hero">
         <div class="hero__text-container">
@@ -259,6 +267,28 @@
       </div>
     </footer>
   </div>
+
+  <script>
+
+    //cart open/close logic
+    function openCart(){
+      const cartBar = document.querySelector(".header__cart-section");
+      const darkBG = document.querySelector(".header__cart-dark-background");
+
+      cartBar.style.display = "unset";
+      darkBG.style.display = "unset";
+    }
+    function closeCart(){
+      const cartBar = document.querySelector(".header__cart-section");
+      const darkBG = document.querySelector(".header__cart-dark-background");
+
+      cartBar.style.display = "none";
+      darkBG.style.display = "none";
+    }
+
+    //login open/close login
+    
+  </script>
 </body>
 
 </html>
