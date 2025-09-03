@@ -1,13 +1,12 @@
-
 // open/close cart logic
-function openCart(){
+function openCart() {
   const cartBar = document.querySelector(".header__cart-section");
   const darkBG = document.querySelector(".header__cart-dark-background");
 
   cartBar.style.display = "unset";
   darkBG.style.display = "unset";
 }
-function closeCart(){
+function closeCart() {
   const cartBar = document.querySelector(".header__cart-section");
   const darkBG = document.querySelector(".header__cart-dark-background");
 
@@ -16,13 +15,13 @@ function closeCart(){
 }
 
 // open/close login logic
-function openLogin(){
+function openLogin() {
   const login = document.querySelector(".header__login-section");
   login.style.display = "flex";
 
   document.body.style.overflow = "hidden";
 }
-function closeLogin(){
+function closeLogin() {
   const login = document.querySelector(".header__login-section");
   login.style.display = "none";
 
